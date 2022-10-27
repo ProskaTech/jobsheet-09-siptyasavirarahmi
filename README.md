@@ -1,5 +1,9 @@
 ## Object-oriented Programming (Lab Work) Template Guides
-1. Silakan anda upload file java hasil praktikum anda menggunakan NetBeans atau IDE/text editor lainnya dengan mengupload button ADD FILE
-2. Upload juga screenshot hasil latihan dan tugas anda dalam format .JPG atau .JPEG atau .PNG
-3. Setiap file java anda diharuskan untuk memiliki identitas anda dengan menggunakan komentar dengan format berikut "Created by NIM_Nama Lengkap" pada bagian paling atas setiap code anda. contoh: // Created by 1203232_Randi Proska Sandra
-4. Silakan anda edit file README.md ini dengan identitas anda juga serta berikan penjelasan terkait source code yang anda upload. Catatan: Jangan ubah nama file README.md
+
+Analisis Job-9:
+
+Pass By Value adalah ketika kita memberikan salinan nilai sebuah variabel sebagai argumen untuk sebuah method. Karena yang diberikan hanya salinan nilainya saja, maka nilai variabel tersebut tidak akan berubah meskipun di dalam method tersebut nilainya berubah karena digunakan untuk melakukan berbagai operasi.
+
+Pass By Reference adalah ketika kita memberikan referensi / pointer ke alamat lokasi variabel yang digunakan sebagai argumen untuk sebuah method. Memberikan referensi ke alamat variabel berarti memberi akses terhadap variabel tersebut. Setiap operasi yang menggunakan referensi tersebut akan merubah nilai variabelnya di stack. Pass By Reference bisa dilakukan dengan menambahkan kata kunci ref.
+
+Metode equals() membandingkan dua String berdasarkan kontennya. Sehingga, apabila dua buah String memiliki huruf-huruf yang sama, diurutan yang sama dan besar-kecil yang sama maka dua String ini akan dianggap sama. Oleh karena itu "Codepolitan" dan "Codepolitan" akan mengembalikan nilai true sedangkan "Codepolitan" dan "CODEPOLITAN" akan mengembalikan nilai false.
